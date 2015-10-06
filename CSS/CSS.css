@@ -1,10 +1,11 @@
 .background {
+	background-color:#180000; 
     background-image: url("../Halloween_bakgrund.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 h1,h2,h3,h4,h5,h6,p{
-	font-family: Times New Roman, Arial;
+	font-family: Candles, Times New Roman, Arial;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
 	text-align: center;
 }
@@ -24,12 +25,44 @@ nav a:hover{ /* How it looks when you hover with muose */
 	text-decoration:underline;
 }
 
-
+.text1{
+	width:1000px;
+	height:500px;	
+	margin:auto;
+	background-color:rgba(120,120,120,0.7);
+}
 .container{
 	width:150px;
 	margin: 25px 0px 0px 20px; /* top right bottom left */
 	border: 10px #888888 solid; /* border-width border-color border-style*/
-	background:#787878;
+	background:rgba(120,120,120,0.7);
 	border-radius:5px;
-	box-shadow: 10px 10px 10px #000000 rgba(0, 0, 0, 0.01);
+	box-shadow: -20px -10px 10px rgba(0,0,0,0.7);
+}
+
+.startram{
+	width:100px;
+	height:70px;
+	background-color:rgba(8,8,8,0.8);
+	border:5px #080808 solid;
+	position:relative;
+	border-radius:5px;
+	
+}
+.ram2{
+	width:100px;
+	height:70px;
+	background-color:rgba(8,8,8,0.8);
+	border:5px #080808 solid;
+	position:relative;
+	margin: 0px 0px 0px 40px;
+	border-radius:5px;
+}
+.ram3{
+	width:100px;
+	height:70px;
+	background-color:rgba(8,8,8,0.8);
+	border:5px #080808 solid;
+	margin: 0px 45px 0px 0px;
+	border-radius:5px;
 }
