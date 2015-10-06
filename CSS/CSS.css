@@ -1,9 +1,10 @@
 body {
-	background-color: Red;
-}
+    background-image: url("../Halloween_bakgrund.jpg");
+	background-size:100% 130%;
 
+}
 h1,h2,h3,h4,h5,h6,p{
-	font-family: Times New Roman;
+	font-family: Times New Roman, Arial;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
 	text-align: center;
 }
@@ -25,10 +26,21 @@ nav a:hover{ /* How it looks when you hover with muose */
 
 
 .container{
-	width:300px;
-	margin: 0px auto 0px auto; /* top right bottom left */
-	border: 3px black solid; /* border-width border-color border-style*/
-	border-radius:30px;
-	z-index:-150px;
-	background:gray;
+	width:150px;
+	margin: 25px 0px 0px 20px; /* top right bottom left */
+	border: 10px #888888 solid; /* border-width border-color border-style*/
+	background:#787878;
+	border-radius:5px;
+	box-shadow: 10px 10px 10px #000000 rgba(0, 0, 0, 0.01);
+}
+
+.Ramstart{
+	width:100px;
+	background:black;
+	margin: 25px 0px 0px 25px;
+	border-radius:5px;
+}
+
+.Ramstart:hover{
+	color:yellow;
 }
