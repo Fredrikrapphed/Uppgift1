@@ -1,7 +1,7 @@
-body {
+.background {
     background-image: url("../Halloween_bakgrund.jpg");
-	background-size:100% 130%;
-
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 h1,h2,h3,h4,h5,h6,p{
 	font-family: Times New Roman, Arial;
@@ -32,15 +32,4 @@ nav a:hover{ /* How it looks when you hover with muose */
 	background:#787878;
 	border-radius:5px;
 	box-shadow: 10px 10px 10px #000000 rgba(0, 0, 0, 0.01);
-}
-
-.Ramstart{
-	width:100px;
-	background:black;
-	margin: 25px 0px 0px 25px;
-	border-radius:5px;
-}
-
-.Ramstart:hover{
-	color:yellow;
 }
