@@ -26,12 +26,16 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 
 .text1{
+	float:left;
 	width:1000px;
 	height:500px;	
-	margin:auto;
+	margin: 25px 0px 0px 20px;
 	background-color:rgba(120,120,120,0.7);
+	border-radius:20px;
+	box-shadow:-15px -10px 10px rgba(0,0,0,0.7)
 }
 .container{
+	float:left;
 	width:150px;
 	margin: 25px 0px 0px 20px; /* top right bottom left */
 	border: 10px #888888 solid; /* border-width border-color border-style*/
