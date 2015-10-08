@@ -25,6 +25,19 @@ nav a:hover{ /* How it looks when you hover with muose */
 	text-decoration:underline;
 }
 
+.startram:hover{
+	background-color:#00CC66;
+	opacity:0.5;
+	
+}
+.ram2:hover{
+	background-color:#00CC66;
+	opacity:0.5;
+}
+.ram3:hover{
+	background-color:#00CC66;
+	opacity:0.5;
+}
 .text1{
 	float:left;
 	width:1000px;
