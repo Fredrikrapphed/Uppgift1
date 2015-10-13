@@ -9,6 +9,10 @@ h1,h2,h3,h4,h5,h6,p{
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
 	text-align: center;
 }
+ol{
+	font-family: Candles, Times New Roman, Arial;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+}
 
 nav a{
 	display:block;
@@ -46,6 +50,15 @@ nav a:hover{ /* How it looks when you hover with muose */
 	background-color:rgba(120,120,120,0.7);
 	border-radius:20px;
 	box-shadow:-15px -10px 10px rgba(0,0,0,0.7)
+}
+.text2{
+	float:left;
+	width:1000px;
+	height:500px;	
+	margin: 25px 0px 0px 20px;
+	background-color:rgba(120,120,120,0.7);
+	border-radius:20px;
+	box-shadow:-15px -10px 10px rgba(0,0,0,0.7);
 }
 .container{
 	float:left;
@@ -91,4 +104,8 @@ nav a:hover{ /* How it looks when you hover with muose */
 	border:10px #888888 solid;
 	border-radius:20px;
 	box-shadow: -10px -10px 10px rgba(0,0,0,0.7);
+}
+#bild1 {
+	width: 1px;
+	height: 1px;
 }
