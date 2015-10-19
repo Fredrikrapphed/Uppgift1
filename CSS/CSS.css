@@ -44,8 +44,8 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 .text1{
 	float:left;
-	width:1000px;
-	height:500px;	
+	width:70%;
+	height:40%;	
 	margin: 25px 0px 0px 20px;
 	background-color:rgba(120,120,120,0.7);
 	border-radius:20px;
@@ -53,8 +53,26 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 .text2{
 	float:left;
-	width:1000px;
-	height:550px;	
+	width:30%;
+	height:50%;	
+	margin: 25px 0px 0px 20px;
+	background-color:rgba(120,120,120,0.7);
+	border-radius:20px;
+	box-shadow:-15px -10px 10px rgba(0,0,0,0.7)
+}
+.text3{
+	float:left;
+	width:70%;
+	height:40%;	
+	margin: 25px 0px 0px 20px;
+	background-color:rgba(120,120,120,0.7);
+	border-radius:20px;
+	box-shadow:-15px -10px 10px rgba(0,0,0,0.7)
+	}
+.bildlista{
+	float:left;
+	width:37.5%;
+	height:relative;	
 	margin: 25px 0px 0px 20px;
 	background-color:rgba(120,120,120,0.7);
 	border-radius:20px;
@@ -98,27 +116,15 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 .Laugh{
 	padding: 0px 0px 0px 30%;
-	
 }
+	
 #laugh {
 	border:10px #888888 solid;
 	border-radius:20px;
 	box-shadow: -10px -10px 10px rgba(0,0,0,0.7);
 }
-#bild1 {
-	width: 1px;
-	height: 1px;
-}
-#bild2 {
-	width: 1px;
-	height: 1px;
-}
-.lista {
-
-
-
-}
 
 .sidledeslista li{
 	float:left;
+	list-style-type: none;
 }
